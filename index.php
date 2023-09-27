@@ -1,5 +1,13 @@
 <?php
-$chars ="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890è+òàù,.-<>|!£$%&/()=?^[]@#_:;§°ç*é";
+$has_pass = isset($_GET["password_lenght"]);
+
+
+function generate($has_pass){
+    $chars ="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890è+òàù,.-<>|!£$%&/()=?^[]@#_:;§°ç*é";
+    $random_chars = '';
+
+}
+
 
 ?>
 
